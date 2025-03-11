@@ -18,4 +18,14 @@ function addTwoNumber (num1,num2) {
 }
 
 const result = addTwoNumber(3,5)
-console.log(result)
+// console.log(result)
+
+function loginMessage(username){
+    if(username === undefined){
+        console.log('please enter a username')
+        return
+    }
+    return `${username} just logged in`
+}
+// console.log(loginMessage('hitesh'))
+console.log(loginMessage())

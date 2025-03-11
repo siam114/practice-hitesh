@@ -43,3 +43,12 @@ const users = [
 // console.log(Object.keys(obj3))
 // console.log(Object.values(obj3))
 // console.log(Object.entries(obj3))
+
+const course = {
+    coursename: 'js',
+    price: '999',
+    courseInstructor: 'hitesh'
+}
+
+const {courseInstructor,price} = course
+// console.log(courseInstructor,price)

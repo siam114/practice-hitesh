@@ -22,10 +22,26 @@ const result = addTwoNumber(3,5)
 
 function loginMessage(username){
     if(username === undefined){
-        console.log('please enter a username')
+        // console.log('please enter a username')
         return
     }
     return `${username} just logged in`
 }
 // console.log(loginMessage('hitesh'))
-console.log(loginMessage())
+// console.log(loginMessage())
+
+function calculateCartPrice(...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200,400,500))
+
+const user = {
+    name: 'siam',
+    price: 199
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.name} and price is ${anyObject.price}`)
+}
+
+console.log(handleObject(user))

@@ -68,3 +68,12 @@ switch(month){
         console.log('default case')
         break;
 }
+
+
+// falsy values
+
+// false, 0, -0, BigIn, 0n, "", null, undefined, NaN
+
+//truthy values
+
+//true,"0", 'false', " ", [], {}, function(){}, 

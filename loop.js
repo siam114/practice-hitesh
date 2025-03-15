@@ -15,3 +15,15 @@ for (let i = 0; i < array.length; i++) {
 //         console.log(`Inner loop value: ${j} and inner loop: ${i}`)
 //     }
 // }
+
+
+
+
+for(let i=1; i<=10; i++){
+    console.log(`Outer loop value: ${i}`)
+    for(j=1; j<=10; j++){
+        // console.log(`Inner loop value: ${j} and inner loop: ${i}`)
+        // console.log(i + '*' + j + '=' + i*j)
+        
+    }
+}

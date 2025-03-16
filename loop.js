@@ -20,18 +20,25 @@ for (let i = 0; i < array.length; i++) {
 
 
 for(let i=1; i<=10; i++){
-    console.log(`Outer loop value: ${i}`)
+    // console.log(`Outer loop value: ${i}`)
     for(j=1; j<=10; j++){
         // console.log(`Inner loop value: ${j} and inner loop: ${i}`)
-        console.log(i + '*' + j + '=' + i*j)
+        // console.log(i + '*' + j + '=' + i*j)
         
     }
 }
 
 for (let index = 0; index < 10; index++) {
     if(index == 5){
-        console.log('detected 5')
+        // console.log('detected 5')
         continue
     }
-    console.log(`value of i is ${index}`)
+    // console.log(`value of i is ${index}`)
+}
+
+
+let index=0
+while(index <=10){
+    console.log(`Value of index is ${index}`)
+    index = index +2
 }
